@@ -23,3 +23,37 @@ $prefix:                      $variable-prefix !default;
 
 $font-family-sans-serif: "Futura Medium", Futura, Helvetica, Arial, sans-serif, sans;
 $font-family-base:            var(--#{$prefix}font-sans-serif) !default;
+
+
+/*-- scss:rules --*/
+
+/* TODO: Provide custom CSS rules */
+
+.table {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.callout.callout-style-default {
+    padding: 0;
+    opacity: 100%;
+}
+  
+div.callout.callout-style-default.callout-objective>.callout-header {
+    background-color:  rgba($chapmanRed, 75%);
+    color: $sand-50;
+    padding: 0.5rem 1rem;
+    opacity: 100%;
+}
+
+div.callout.callout-objective {
+    border-left-color: $grove;
+}
+
+div.callout.callout-style-default.callout-objective>.callout-header {
+    background-color:  rgba($grove, 75%);
+    color: #ffffff;
+    padding: 0.5rem 1rem;
+    opacity: 100%;
+}
